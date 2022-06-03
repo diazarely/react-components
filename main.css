@@ -1,0 +1,53 @@
+.back {
+   height: 500px;
+    width: 800px;
+   background-color: bisque;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: repeat(8,1fr);
+   display: flex;
+   flex-direction: row ;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   
+}
+
+
+.nav{
+    height:400px;
+    width: 100px; 
+    background-color: chocolate;
+    padding: 20px;
+    
+}
+
+.reviews{
+    background-color: blue;
+    height: 200px;
+    width: 150px;
+}
+.rating{
+    background-color: red;
+    height: 200px;
+    width: 150px;
+}
+
+.analysis{
+    background-color: chocolate;
+    height: 200px;
+    width: 150px;
+}
+
+.visitors{
+    background-color: orange;
+    height: 150px;
+    width: 550px;
+    margin-top: -200px;
+    margin-left: 190px;
+}
+
+.map{
+    background-color: red;
+    height: 90px;
+    width: 300px;
+    
+}
